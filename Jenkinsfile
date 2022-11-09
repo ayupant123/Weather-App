@@ -26,7 +26,7 @@ pipeline {
    stage('Build Docker image') {
     steps {
       echo "-=- build Docker image -=-"
-      bat "docker build . -t weather-app "
+      bat "docker build -t weather-app ."
    }
  }
 
