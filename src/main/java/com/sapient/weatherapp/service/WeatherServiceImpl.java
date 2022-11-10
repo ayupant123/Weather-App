@@ -2,7 +2,7 @@ package com.sapient.weatherapp.service;
 
 /**
  *
- * service class for
+ * service class for weather
  *
  * @author ayupant
  */
