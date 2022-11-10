@@ -33,7 +33,7 @@ pipeline {
    stage('Run Docker image') {
      steps {
         echo "-=- run Docker image -=-"
-        bat "docker run --name=weather-app --network weather-app-network -p 8345:8345 weather-app-network"
+        bat "docker run --name=weather-app -p 8345:8345 weather-app"
     }
  }
 
