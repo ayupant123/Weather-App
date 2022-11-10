@@ -14,6 +14,15 @@ import com.sapient.weatherapp.exceptions.ResourceNotFoundException;
 import com.sapient.weatherapp.model.WeatherForecast;
 import com.sapient.weatherapp.service.WeatherService;
 
+/**
+ *
+ * Controller class for weather-app
+ *
+ * @author ayupant
+ * @version 1.1
+ *
+ */
+
 @RestController
 @RequestMapping("/api/v1/weather")
 public class WeatherController {

@@ -1,5 +1,9 @@
 package com.sapient.weatherapp.model;
 
+/**
+ * @author ayupant
+ */
+
 import java.util.ArrayList;
 import java.util.List;
 

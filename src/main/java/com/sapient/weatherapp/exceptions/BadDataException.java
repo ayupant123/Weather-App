@@ -1,7 +1,7 @@
 package com.sapient.weatherapp.exceptions;
 
 /**
- * Class for handling exception if some data is not found
+ * Class for handling exception
  *
  * @author ayupant
  * @version 1.0
@@ -9,11 +9,11 @@ package com.sapient.weatherapp.exceptions;
  *
  */
 
-public class ResourceNotFoundException extends RuntimeException {
+public class BadDataException extends RuntimeException {
 
 	private static final long serialVersionUID = 1L;
 
-	public ResourceNotFoundException(String message) {
+	public BadDataException(String message) {
 		super(message);
 	}
 
