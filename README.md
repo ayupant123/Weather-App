@@ -8,6 +8,8 @@ Create , test and deploy microservice to show weather of next three days highs a
 * Spring Boot
 * Lombok
 * Build - Maven
+* REST API's
+* JUnit
 * Docker
 * Jenkins
 
